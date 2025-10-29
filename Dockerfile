@@ -12,6 +12,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     texlive-lang-cyrillic \
     texlive-lang-english \
     texlive-bibtex-extra \
+    texlive-fonts-extra \
     biber \
     ghostscript \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
